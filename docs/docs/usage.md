@@ -19,7 +19,7 @@ Once the limit is exceeded, further requests are blocked for that day.
 
 ---
 
-## 📦 Usage Logging
+## Usage Logging
 
 Every data query (GET or POST) is logged with:
 
@@ -35,7 +35,7 @@ These logs are stored in the `usage_logs` table in PostgreSQL.
 
 ---
 
-## 🧪 Example: User Limit Exceeded
+## Example: User Limit Exceeded
 
 **Request:**
 
@@ -53,7 +53,7 @@ GET /datasets/table_name/query?limit=10000
 
 ---
 
-## 🛡️ Suppressed Query Still Logged
+## Suppressed Query Still Logged
 
 Even when a query is suppressed (for <5 rows), a log entry is still made with:
 
@@ -62,7 +62,7 @@ Even when a query is suppressed (for <5 rows), a log entry is still made with:
 
 ---
 
-## 📌 Admin Debug Tools
+## Admin Debug Tools
 
 ### 🔎 Endpoint: `/debug/user-info`
 
