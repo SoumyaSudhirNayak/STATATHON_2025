@@ -12,7 +12,7 @@ This project enables structured access to official survey microdata using:
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 | Folder/File   | Description                                     |
 | ------------- | ----------------------------------------------- |
