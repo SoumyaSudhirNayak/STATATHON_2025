@@ -1,0 +1,8 @@
+site_name: Statathon API Gateway
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - API Reference: api.md
+  - Authentication: auth.md
+  - Usage Metering: usage.md
