@@ -4,7 +4,7 @@ This section describes how the API Gateway tracks and limits usage for each user
 
 ---
 
-## ✅ Row-Based Usage Limit
+## Row-Based Usage Limit
 
 Each user has a maximum number of rows they can access per day. This is tracked via a `usage_logs` table.
 
