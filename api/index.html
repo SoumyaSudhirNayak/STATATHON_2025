@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://SoumyaSudhirNayak.github.io/STATATHON_2025/docs/">
+        <link rel="canonical" href="https://SoumyaSudhirNayak.github.io/STATATHON_2025/api/">
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../auth/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -18,7 +22,7 @@
     
     
       
-        <title>🏠 Statathon API Gateway - Statathon Docs</title>
+        <title>API Reference - Statathon Docs</title>
       
     
     
@@ -60,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#statathon-api-gateway" class="md-skip">
+        <a href="#api-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🏠 Statathon API Gateway
+              API Reference
             
           </span>
         </div>
@@ -192,7 +196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../index.md" class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -211,10 +215,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../api.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -225,6 +251,137 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#query-a-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Query a Dataset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Query a Dataset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Parameters:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auth-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Auth Required:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-1-admin-full-json-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 1: Admin (Full JSON Response)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-2-csv-download" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 2: CSV Download
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-non-admin-suppression-triggered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 3: Non-Admin (Suppression Triggered)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upload-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Upload Dataset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📄 Upload Dataset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#form-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Form Data:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auth-required_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Auth Required:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-current-user-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 View Current User (Debug)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-suppression-logic-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔎 Test Suppression Logic (Debug)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -236,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../auth.md" class="md-nav__link">
+      <a href="../auth/" class="md-nav__link">
         
   
   
@@ -258,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage.md" class="md-nav__link">
+      <a href="../usage/" class="md-nav__link">
         
   
   
@@ -300,55 +457,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#project-structure" class="md-nav__link">
+  <a href="#query-a-dataset" class="md-nav__link">
     <span class="md-ellipsis">
-      🧱 Project Structure
+      Query a Dataset
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧪 How to Test
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🧪 How to Test">
+    <nav class="md-nav" aria-label="Query a Dataset">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-login" class="md-nav__link">
+  <a href="#parameters" class="md-nav__link">
     <span class="md-ellipsis">
-      🔑 1. Login
+      🔹 Parameters:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-upload-dataset-admin-only" class="md-nav__link">
+  <a href="#auth-required" class="md-nav__link">
     <span class="md-ellipsis">
-      📤 2. Upload Dataset (Admin Only)
+      🔐 Auth Required:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-query-dataset" class="md-nav__link">
+  <a href="#example-1-admin-full-json-response" class="md-nav__link">
     <span class="md-ellipsis">
-      📥 3. Query Dataset
+      Example 1: Admin (Full JSON Response)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-view-usage-logs-admin-sql" class="md-nav__link">
+  <a href="#example-2-csv-download" class="md-nav__link">
     <span class="md-ellipsis">
-      📊 4. View Usage Logs (Admin SQL)
+      Example 2: CSV Download
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-3-non-admin-suppression-triggered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example 3: Non-Admin (Suppression Triggered)
     </span>
   </a>
   
@@ -360,9 +517,51 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation-sections" class="md-nav__link">
+  <a href="#upload-dataset" class="md-nav__link">
     <span class="md-ellipsis">
-      📚 Documentation Sections
+      📄 Upload Dataset
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📄 Upload Dataset">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#form-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Form Data:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auth-required_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Auth Required:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view-current-user-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 View Current User (Debug)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-suppression-logic-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔎 Test Suppression Logic (Debug)
     </span>
   </a>
   
@@ -384,104 +583,165 @@
 
 
 
-<h1 id="statathon-api-gateway">🏠 Statathon API Gateway</h1>
-<p>Welcome to the documentation for  <strong>Statathon Dataset API Gateway</strong>.
-This project enables structured access to official survey microdata using:</p>
-<ul>
-<li>✅ DDI-based ingestion of ZIP datasets</li>
-<li>✅ Filtered SQL API queries (with role-based control)</li>
-<li>✅ 📉 Usage metering + rate limits</li>
-<li>✅ 🔐 Cell suppression &amp; aggregation (for privacy)</li>
-<li>✅ 💼 Micro-payment integration(To be integrated)</li>
-<li>✅ 🔍 Swagger / Postman / MkDocs documentation</li>
-</ul>
+<h1 id="api-reference">🛱️ API Reference</h1>
+<p>This section documents the core APIs of  <strong>Statathon Dataset Gateway</strong>.</p>
 <hr />
-<h2 id="project-structure">🧱 Project Structure</h2>
+<h2 id="query-a-dataset">Query a Dataset</h2>
+<p><strong>GET</strong> <code>/datasets/{table_name}/query</code></p>
+<p>Use this endpoint to query any dataset table with filters, column selection, and pagination.</p>
+<h3 id="parameters">🔹 Parameters:</h3>
 <table>
 <thead>
 <tr>
-<th>Folder/File</th>
+<th>Param</th>
+<th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>main.py</code></td>
-<td>FastAPI app entrypoint</td>
+<td><code>columns</code></td>
+<td>string</td>
+<td>Comma-separated list of columns to return</td>
 </tr>
 <tr>
-<td><code>routers/</code></td>
-<td>Contains upload, query, and auth endpoints</td>
+<td><code>filters</code></td>
+<td>string</td>
+<td>Filter expression using SQL operators (<code>=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>IN</code>)</td>
 </tr>
 <tr>
-<td><code>auth/local/</code></td>
-<td>JWT-based auth system with role checks</td>
+<td><code>limit</code></td>
+<td>integer</td>
+<td>Number of rows to return (default: 100)</td>
 </tr>
 <tr>
-<td><code>utils/</code></td>
-<td>Helpers for parsing DDI, converting, validating</td>
-</tr>
-<tr>
-<td><code>templates/</code></td>
-<td>Contains the HTML files for all the pages.</td>
-</tr>
-<tr>
-<td><code>docs/</code></td>
-<td>MkDocs-based API documentation</td>
-</tr>
-<tr>
-<td><code>query/</code></td>
-<td>Conains the route for query data</td>
+<td><code>offset</code></td>
+<td>integer</td>
+<td>Number of rows to skip (default: 0)</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="how-to-test">🧪 How to Test</h2>
-<p>You can use <strong>Postman</strong> or Swagger UI (<code>/docs</code>) to test the APIs.</p>
-<h3 id="1-login">🔑 1. Login</h3>
-<pre><code class="language-http">POST /auth/token
-</code></pre>
-<p><strong>Body (form):</strong></p>
-<pre><code>username: statathon12@gmail.com
-password: yourpassword
-</code></pre>
-<p>Copy the <code>access_token</code> from response.</p>
-<hr />
-<h3 id="2-upload-dataset-admin-only">📤 2. Upload Dataset (Admin Only)</h3>
-<pre><code class="language-http">POST /upload/
-</code></pre>
-<p><strong>Form Data:</strong></p>
+<h3 id="auth-required">🔐 Auth Required:</h3>
 <ul>
-<li>file: NSS.zip</li>
-<li>schema: public</li>
+<li>Bearer token (admin or user)</li>
 </ul>
-<p><strong>Header:</strong></p>
-<pre><code>Authorization: Bearer &lt;ADMIN_JWT&gt;
-</code></pre>
 <hr />
-<h3 id="3-query-dataset">📥 3. Query Dataset</h3>
-<pre><code class="language-http">GET /datasets/{table_name}/query?limit=10&amp;columns=A,B,C&amp;filters=X=Y
+<h3 id="example-1-admin-full-json-response">Example 1: Admin (Full JSON Response)</h3>
+<p><strong>Request:</strong></p>
+<pre><code>GET /datasets/block_5_2_usual_subsidiary_economic_activity_particulars_of_hou/query?limit=10&amp;offset=0&amp;columns=Round_Centre_Code,FSU_Serial_No,Round,Sch_No
 </code></pre>
 <p><strong>Headers:</strong></p>
-<pre><code>Authorization: Bearer &lt;USER_OR_ADMIN_JWT&gt;
-Accept: application/json OR text/csv
+<pre><code>Authorization: Bearer &lt;ADMIN_JWT&gt;
+Accept: application/json
+</code></pre>
+<p><strong>Response:</strong></p>
+<pre><code class="language-json">[
+  {
+    &quot;Round_Centre_Code&quot;: 12,
+    &quot;FSU_Serial_No&quot;: 71558,
+    &quot;Round&quot;: 68,
+    &quot;Sch_No&quot;: 100
+  },
+  {
+    &quot;Round_Centre_Code&quot;: 6,
+    &quot;FSU_Serial_No&quot;: 71560,
+    &quot;Round&quot;: 68,
+    &quot;Sch_No&quot;: 101
+  }
+]
 </code></pre>
 <hr />
-<h3 id="4-view-usage-logs-admin-sql">📊 4. View Usage Logs (Admin SQL)</h3>
-<p>Use a database client to run:</p>
-<pre><code class="language-sql">SELECT user_email, queried_at::date, SUM(rows_returned) AS total_rows
-FROM usage_logs
-GROUP BY user_email, queried_at::date
-ORDER BY queried_at DESC;
+<h3 id="example-2-csv-download">Example 2: CSV Download</h3>
+<p><strong>Request:</strong></p>
+<pre><code>GET /datasets/block_5_2_usual_subsidiary_economic_activity_particulars_of_hou/query?limit=10&amp;columns=Round_Centre_Code,FSU_Serial_No,Round,Sch_No
+</code></pre>
+<p><strong>Headers:</strong></p>
+<pre><code>Authorization: Bearer &lt;JWT&gt;
+Accept: text/csv
+</code></pre>
+<p><strong>Response (CSV):</strong></p>
+<pre><code>Round_Centre_Code,FSU_Serial_No,Round,Sch_No
+12,71558,68,100
+6,71560,68,101
 </code></pre>
 <hr />
-<h2 id="documentation-sections">📚 Documentation Sections</h2>
+<h3 id="example-3-non-admin-suppression-triggered">Example 3: Non-Admin (Suppression Triggered)</h3>
+<p><strong>Request:</strong></p>
+<pre><code>GET /datasets/block_5_2_usual_subsidiary_economic_activity_particulars_of_hou/query?filters=FSU_Serial_No=71238;Round_Centre_Code=4&amp;limit=10
+</code></pre>
+<p><strong>Headers:</strong></p>
+<pre><code>Authorization: Bearer &lt;USER_JWT&gt;
+Accept: application/json
+</code></pre>
+<p><strong>Response (403 Forbidden):</strong></p>
+<pre><code class="language-json">{
+  &quot;detail&quot;: {
+    &quot;error&quot;: &quot;Data Access Restricted&quot;,
+    &quot;detail&quot;: &quot;Data suppressed: Result contains 1 rows, which is below the minimum threshold of 5 rows required for privacy protection.&quot;,
+    &quot;code&quot;: &quot;CELL_SUPPRESSION_APPLIED&quot;,
+    &quot;minimum_rows_required&quot;: 5,
+    &quot;actual_rows&quot;: 1
+  }
+}
+</code></pre>
+<hr />
+<h2 id="upload-dataset">📄 Upload Dataset</h2>
+<p><strong>POST</strong> <code>/upload/</code></p>
+<p>Upload a ZIP file containing <code>.csv</code>, <code>.txt</code>, and <code>.xml</code> (DDI) files.</p>
+<h3 id="form-data">🔹 Form Data:</h3>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>file</code></td>
+<td>file</td>
+<td>ZIP file with dataset + DDI</td>
+</tr>
+<tr>
+<td><code>schema</code></td>
+<td>string</td>
+<td>Target schema (e.g., <code>public</code>, <code>plfs</code>)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="auth-required_1">🔐 Auth Required:</h3>
 <ul>
-<li><a href="api/">API Reference</a></li>
-<li><a href="auth/">Authentication</a></li>
-<li><a href="usage/">Usage Metering</a></li>
+<li>Admin only</li>
 </ul>
-<p>Enjoy building privacy-compliant data systems 🚀</p>
+<p><strong>Response:</strong></p>
+<pre><code class="language-html">&lt;h3&gt;✅ Upload successful!&lt;/h3&gt;
+</code></pre>
+<hr />
+<h2 id="view-current-user-debug">🔍 View Current User (Debug)</h2>
+<p><strong>GET</strong> <code>/debug/user-info</code></p>
+<p>Returns current user’s email, role, and debug info.</p>
+<p><strong>Response:</strong></p>
+<pre><code class="language-json">{
+  &quot;username&quot;: &quot;statathon12@gmail.com&quot;,
+  &quot;role&quot;: 1,
+  &quot;is_admin&quot;: true
+}
+</code></pre>
+<hr />
+<h2 id="test-suppression-logic-debug">🔎 Test Suppression Logic (Debug)</h2>
+<p><strong>GET</strong> <code>/debug/test-suppression</code></p>
+<p>Simulates a query returning &lt;5 rows and checks suppression logic.</p>
+<p><strong>Response (for users):</strong></p>
+<pre><code class="language-json">{
+  &quot;message&quot;: &quot;✅ Cell suppression is working correctly!&quot;,
+  &quot;suppressed&quot;: true,
+  &quot;user_role&quot;: &quot;3&quot;,
+  &quot;row_count&quot;: 3
+}
+</code></pre>
+<hr />
+<p>Continue to <a href="../auth/">Authentication</a> →</p>
 
 
 

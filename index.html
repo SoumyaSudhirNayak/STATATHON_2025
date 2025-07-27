@@ -8,21 +8,23 @@
       
       
       
-        <link rel="canonical" href="https://SoumyaSudhirNayak.github.io/STATATHON_2025/docs/auth/">
+        <link rel="canonical" href="https://SoumyaSudhirNayak.github.io/STATATHON_2025/">
       
       
       
+        <link rel="next" href="api/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      
+      <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>🔐 Authentication API - Statathon Docs</title>
+        <title>Statathon Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -41,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#authentication-api" class="md-skip">
+        <a href="#statathon-api-gateway" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Statathon Docs" class="md-header__button md-logo" aria-label="Statathon Docs" data-md-component="logo">
+    <a href="." title="Statathon Docs" class="md-header__button md-logo" aria-label="Statathon Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔐 Authentication API
+              Home
             
           </span>
         </div>
@@ -174,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Statathon Docs" class="md-nav__button md-logo" aria-label="Statathon Docs" data-md-component="logo">
+    <a href="." title="Statathon Docs" class="md-nav__button md-logo" aria-label="Statathon Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -189,10 +191,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../index.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   
@@ -203,6 +227,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧱 Project Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 How to Test
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 How to Test">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑 1. Login
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-upload-dataset-admin-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      📤 2. Upload Dataset (Admin Only)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-query-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📥 3. Query Dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-view-usage-logs-admin-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 4. View Usage Logs (Admin SQL)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Documentation Sections
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -214,7 +327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api.md" class="md-nav__link">
+      <a href="api/" class="md-nav__link">
         
   
   
@@ -236,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../auth.md" class="md-nav__link">
+      <a href="auth/" class="md-nav__link">
         
   
   
@@ -258,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../usage.md" class="md-nav__link">
+      <a href="usage/" class="md-nav__link">
         
   
   
@@ -300,37 +413,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#register-a-new-user" class="md-nav__link">
+  <a href="#project-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      🔑 Register a New User
+      🧱 Project Structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🔑 Register a New User">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 How to Test
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 How to Test">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#body-json" class="md-nav__link">
+  <a href="#1-login" class="md-nav__link">
     <span class="md-ellipsis">
-      📥 Body (JSON):
+      🔑 1. Login
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#roles" class="md-nav__link">
+  <a href="#2-upload-dataset-admin-only" class="md-nav__link">
     <span class="md-ellipsis">
-      🎭 Roles:
+      📤 2. Upload Dataset (Admin Only)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#response" class="md-nav__link">
+  <a href="#3-query-dataset" class="md-nav__link">
     <span class="md-ellipsis">
-      Response:
+      📥 3. Query Dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-view-usage-logs-admin-sql" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 4. View Usage Logs (Admin SQL)
     </span>
   </a>
   
@@ -342,101 +473,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#get-access-token" class="md-nav__link">
+  <a href="#documentation-sections" class="md-nav__link">
     <span class="md-ellipsis">
-      🔐 Get Access Token
+      📚 Documentation Sections
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="🔐 Get Access Token">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#form-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      📥 Form Data:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Response:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-bearer-token" class="md-nav__link">
-    <span class="md-ellipsis">
-      📎 Using Bearer Token
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📎 Using Bearer Token">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#header-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔐 Header Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#token-lifetime" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔁 Token Lifetime
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unauthorized-access" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚫 Unauthorized Access
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#who-am-i-debug" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔍 Who Am I? (Debug)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔍 Who Am I? (Debug)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Example:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -456,95 +497,104 @@
 
 
 
-<h1 id="authentication-api">🔐 Authentication API</h1>
-<p>This document describes how to register, log in, and use authentication headers for <strong>Statathon API Gateway</strong>.</p>
-<hr />
-<h2 id="register-a-new-user">🔑 Register a New User</h2>
-<p><strong>POST</strong> <code>/auth/register</code></p>
-<p>Create a new user account.</p>
-<h3 id="body-json">📥 Body (JSON):</h3>
-<pre><code class="language-json">{
-  &quot;username&quot;: &quot;Sudheer&quot;,
-  &quot;email&quot;: &quot;statathon12@gmail.com&quot;,
-  &quot;password&quot;: &quot;mypassword&quot;,
-  &quot;role_id&quot;: 3
-}
-</code></pre>
-<h3 id="roles">🎭 Roles:</h3>
+<h1 id="statathon-api-gateway">🏠 Statathon API Gateway</h1>
+<p>Welcome to the documentation for  <strong>Statathon Dataset API Gateway</strong>.
+This project enables structured access to official survey microdata using:</p>
 <ul>
-<li><code>1</code> → Admin</li>
-<li><code>3</code> → General User</li>
+<li>✅ DDI-based ingestion of ZIP datasets</li>
+<li>✅ Filtered SQL API queries (with role-based control)</li>
+<li>✅ 📉 Usage metering + rate limits</li>
+<li>✅ 🔐 Cell suppression &amp; aggregation (for privacy)</li>
+<li>✅ 💼 Micro-payment integration(To be integrated)</li>
+<li>✅ 🔍 Swagger / Postman / MkDocs documentation</li>
 </ul>
-<h3 id="response">Response:</h3>
-<pre><code class="language-json">{
-  &quot;message&quot;: &quot;User created successfully&quot;
-}
-</code></pre>
 <hr />
-<h2 id="get-access-token">🔐 Get Access Token</h2>
-<p><strong>POST</strong> <code>/auth/token</code></p>
-<p>Use email + password to get JWT token.</p>
-<h3 id="form-data">📥 Form Data:</h3>
+<h2 id="project-structure">🧱 Project Structure</h2>
 <table>
 <thead>
 <tr>
-<th>Key</th>
-<th>Type</th>
-<th>Example</th>
+<th>Folder/File</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>username</td>
-<td>string</td>
-<td><a href="mailto:statathon12@gmail.com">statathon12@gmail.com</a></td>
+<td><code>main.py</code></td>
+<td>FastAPI app entrypoint</td>
 </tr>
 <tr>
-<td>password</td>
-<td>string</td>
-<td>mypassword</td>
+<td><code>routers/</code></td>
+<td>Contains upload, query, and auth endpoints</td>
+</tr>
+<tr>
+<td><code>auth/local/</code></td>
+<td>JWT-based auth system with role checks</td>
+</tr>
+<tr>
+<td><code>utils/</code></td>
+<td>Helpers for parsing DDI, converting, validating</td>
+</tr>
+<tr>
+<td><code>templates/</code></td>
+<td>Contains the HTML files for all the pages.</td>
+</tr>
+<tr>
+<td><code>docs/</code></td>
+<td>MkDocs-based API documentation</td>
+</tr>
+<tr>
+<td><code>query/</code></td>
+<td>Conains the route for query data</td>
 </tr>
 </tbody>
 </table>
-<h3 id="response_1">Response:</h3>
-<pre><code class="language-json">{
-  &quot;access_token&quot;: &quot;&lt;JWT_TOKEN&gt;&quot;,
-  &quot;token_type&quot;: &quot;bearer&quot;
-}
-</code></pre>
 <hr />
-<h2 id="using-bearer-token">📎 Using Bearer Token</h2>
-<p>After login, use the returned <code>access_token</code> in all protected routes.</p>
-<h3 id="header-example">🔐 Header Example:</h3>
-<pre><code class="language-http">Authorization: Bearer &lt;JWT_TOKEN&gt;
+<h2 id="how-to-test">🧪 How to Test</h2>
+<p>You can use <strong>Postman</strong> or Swagger UI (<code>/docs</code>) to test the APIs.</p>
+<h3 id="1-login">🔑 1. Login</h3>
+<pre><code class="language-http">POST /auth/token
 </code></pre>
+<p><strong>Body (form):</strong></p>
+<pre><code>username: statathon12@gmail.com
+password: yourpassword
+</code></pre>
+<p>Copy the <code>access_token</code> from response.</p>
 <hr />
-<h2 id="token-lifetime">🔁 Token Lifetime</h2>
+<h3 id="2-upload-dataset-admin-only">📤 2. Upload Dataset (Admin Only)</h3>
+<pre><code class="language-http">POST /upload/
+</code></pre>
+<p><strong>Form Data:</strong></p>
 <ul>
-<li>JWT tokens are valid for <strong>30 minutes</strong> by default.</li>
-<li>They are <strong>stateless</strong> and do not require server session storage.</li>
+<li>file: NSS.zip</li>
+<li>schema: public</li>
 </ul>
-<hr />
-<h2 id="unauthorized-access">🚫 Unauthorized Access</h2>
-<p>If the token is invalid or expired:</p>
-<p><strong>Response:</strong></p>
-<pre><code class="language-json">{
-  &quot;detail&quot;: &quot;Could not validate credentials&quot;
-}
+<p><strong>Header:</strong></p>
+<pre><code>Authorization: Bearer &lt;ADMIN_JWT&gt;
 </code></pre>
 <hr />
-<h2 id="who-am-i-debug">🔍 Who Am I? (Debug)</h2>
-<p><strong>GET</strong> <code>/debug/user-info</code></p>
-<p>Check which user is currently authenticated.</p>
-<h3 id="example">Example:</h3>
-<pre><code class="language-json">{
-  &quot;username&quot;: &quot;statathon12@gmail.com&quot;,
-  &quot;role&quot;: 1,
-  &quot;is_admin&quot;: true
-}
+<h3 id="3-query-dataset">📥 3. Query Dataset</h3>
+<pre><code class="language-http">GET /datasets/{table_name}/query?limit=10&amp;columns=A,B,C&amp;filters=X=Y
+</code></pre>
+<p><strong>Headers:</strong></p>
+<pre><code>Authorization: Bearer &lt;USER_OR_ADMIN_JWT&gt;
+Accept: application/json OR text/csv
 </code></pre>
 <hr />
-<p>Return to <a href="../api/">API Reference</a> →</p>
+<h3 id="4-view-usage-logs-admin-sql">📊 4. View Usage Logs (Admin SQL)</h3>
+<p>Use a database client to run:</p>
+<pre><code class="language-sql">SELECT user_email, queried_at::date, SUM(rows_returned) AS total_rows
+FROM usage_logs
+GROUP BY user_email, queried_at::date
+ORDER BY queried_at DESC;
+</code></pre>
+<hr />
+<h2 id="documentation-sections">📚 Documentation Sections</h2>
+<ul>
+<li><a href="api/">API Reference</a></li>
+<li><a href="auth/">Authentication</a></li>
+<li><a href="usage/">Usage Metering</a></li>
+</ul>
+<p>Enjoy building privacy-compliant data systems 🚀</p>
 
 
 
@@ -593,10 +643,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>
