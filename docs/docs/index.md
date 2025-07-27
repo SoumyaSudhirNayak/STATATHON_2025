@@ -3,12 +3,12 @@
 Welcome to the documentation for  **Statathon Dataset API Gateway**.
 This project enables structured access to official survey microdata using:
 
-* ✅ DDI-based ingestion of ZIP datasets
-* ✅ Filtered SQL API queries (with role-based control)
-* ✅ 📉 Usage metering + rate limits
-* ✅ 🔐 Cell suppression & aggregation (for privacy)
-* ✅ 💼 Micro-payment integration(To be integrated)
-* ✅ 🔍 Swagger / Postman / MkDocs documentation
+* DDI-based ingestion of ZIP datasets
+* Filtered SQL API queries (with role-based control)
+* Usage metering + rate limits
+* Cell suppression & aggregation (for privacy)
+* Micro-payment integration(To be integrated)
+* Swagger / Postman / MkDocs documentation
 
 ---
 
@@ -26,7 +26,7 @@ This project enables structured access to official survey microdata using:
 
 ---
 
-## 🧪 How to Test
+## How to Test
 
 You can use **Postman** or Swagger UI (`/docs`) to test the APIs.
 
