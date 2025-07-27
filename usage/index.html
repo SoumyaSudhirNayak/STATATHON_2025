@@ -312,11 +312,11 @@
         <li class="md-nav__item">
   <a href="#row-based-usage-limit" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Row-Based Usage Limit
+      Row-Based Usage Limit
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="✅ Row-Based Usage Limit">
+    <nav class="md-nav" aria-label="Row-Based Usage Limit">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -345,7 +345,7 @@
         <li class="md-nav__item">
   <a href="#example-user-limit-exceeded" class="md-nav__link">
     <span class="md-ellipsis">
-      🧪 Example: User Limit Exceeded
+      Example: User Limit Exceeded
     </span>
   </a>
   
@@ -354,7 +354,7 @@
         <li class="md-nav__item">
   <a href="#suppressed-query-still-logged" class="md-nav__link">
     <span class="md-ellipsis">
-      🛡️ Suppressed Query Still Logged
+      Suppressed Query Still Logged
     </span>
   </a>
   
@@ -363,11 +363,11 @@
         <li class="md-nav__item">
   <a href="#admin-debug-tools" class="md-nav__link">
     <span class="md-ellipsis">
-      📌 Admin Debug Tools
+      Admin Debug Tools
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📌 Admin Debug Tools">
+    <nav class="md-nav" aria-label="Admin Debug Tools">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -430,11 +430,11 @@
         <li class="md-nav__item">
   <a href="#row-based-usage-limit" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Row-Based Usage Limit
+      Row-Based Usage Limit
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="✅ Row-Based Usage Limit">
+    <nav class="md-nav" aria-label="Row-Based Usage Limit">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -463,7 +463,7 @@
         <li class="md-nav__item">
   <a href="#example-user-limit-exceeded" class="md-nav__link">
     <span class="md-ellipsis">
-      🧪 Example: User Limit Exceeded
+      Example: User Limit Exceeded
     </span>
   </a>
   
@@ -472,7 +472,7 @@
         <li class="md-nav__item">
   <a href="#suppressed-query-still-logged" class="md-nav__link">
     <span class="md-ellipsis">
-      🛡️ Suppressed Query Still Logged
+      Suppressed Query Still Logged
     </span>
   </a>
   
@@ -481,11 +481,11 @@
         <li class="md-nav__item">
   <a href="#admin-debug-tools" class="md-nav__link">
     <span class="md-ellipsis">
-      📌 Admin Debug Tools
+      Admin Debug Tools
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📌 Admin Debug Tools">
+    <nav class="md-nav" aria-label="Admin Debug Tools">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -530,7 +530,7 @@
 <h1 id="usage-metering">📊 Usage Metering</h1>
 <p>This section describes how the API Gateway tracks and limits usage for each user based on the number of rows accessed per day.</p>
 <hr />
-<h2 id="row-based-usage-limit">✅ Row-Based Usage Limit</h2>
+<h2 id="row-based-usage-limit">Row-Based Usage Limit</h2>
 <p>Each user has a maximum number of rows they can access per day. This is tracked via a <code>usage_logs</code> table.</p>
 <h3 id="default-limits">🔹 Default Limits:</h3>
 <table>
@@ -566,7 +566,7 @@
 </ul>
 <p>These logs are stored in the <code>usage_logs</code> table in PostgreSQL.</p>
 <hr />
-<h2 id="example-user-limit-exceeded">🧪 Example: User Limit Exceeded</h2>
+<h2 id="example-user-limit-exceeded">Example: User Limit Exceeded</h2>
 <p><strong>Request:</strong></p>
 <pre><code>GET /datasets/table_name/query?limit=10000
 </code></pre>
@@ -576,14 +576,14 @@
 }
 </code></pre>
 <hr />
-<h2 id="suppressed-query-still-logged">🛡️ Suppressed Query Still Logged</h2>
+<h2 id="suppressed-query-still-logged">Suppressed Query Still Logged</h2>
 <p>Even when a query is suppressed (for &lt;5 rows), a log entry is still made with:</p>
 <ul>
 <li><code>rows_returned = 0</code></li>
 <li><code>bytes_sent = 0</code></li>
 </ul>
 <hr />
-<h2 id="admin-debug-tools">📌 Admin Debug Tools</h2>
+<h2 id="admin-debug-tools">Admin Debug Tools</h2>
 <h3 id="endpoint-debuguser-info">🔎 Endpoint: <code>/debug/user-info</code></h3>
 <p>Returns your role and email for debugging.</p>
 <h3 id="db-table-usage_logs">📊 DB Table: <code>usage_logs</code></h3>
