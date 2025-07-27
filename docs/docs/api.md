@@ -137,7 +137,7 @@ Upload a ZIP file containing `.csv`, `.txt`, and `.xml` (DDI) files.
 **Response:**
 
 ```html
-<h3>✅ Upload successful!</h3>
+<h3>Upload successful!</h3>
 ```
 
 ---
@@ -170,7 +170,7 @@ Simulates a query returning <5 rows and checks suppression logic.
 
 ```json
 {
-  "message": "✅ Cell suppression is working correctly!",
+  "message": "Cell suppression is working correctly!",
   "suppressed": true,
   "user_role": "3",
   "row_count": 3
