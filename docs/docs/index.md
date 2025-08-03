@@ -1,4 +1,4 @@
-# 🏠 Statathon API Gateway
+# 🏠 Statathon API Gateway - By TEAM KRYPTOS
 
 Welcome to the documentation for  **Statathon Dataset API Gateway**.
 This project enables structured access to official survey microdata using:
